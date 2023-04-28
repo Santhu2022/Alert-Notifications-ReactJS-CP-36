@@ -1,0 +1,24 @@
+.notification-container {
+  border: 1px solid #e5e5e5;
+  padding: 20px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.notification-content {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+}
+.close-icon {
+  width: 26px;
+  height: 26px;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+* {
+  /* border: 1px solid red; */
+}
